@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Global Connect",
-    default: "Global Connect",
+    template: "%s | Student Circle",
+    default: "Student Circle",
   },
   description: "A platform for students to connect with their fellow mates around the globe",
 };

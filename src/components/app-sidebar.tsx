@@ -36,7 +36,7 @@ const AppSidebar: React.FC = () => {
     <>
       <SidebarHeader className="flex items-center justify-between p-4">
         <h1 className="text-xl font-semibold text-primary group-data-[collapsible=icon]:hidden">
-          Global Connect
+          Student Circle
         </h1>
          {/* Mobile trigger */}
          <div className="md:hidden">
