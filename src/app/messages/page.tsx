@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { MessageSquareText } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Global Connect - Messages",
+  title: "Messages", // Update title, layout template handles " | Global Connect"
   description: "View your direct messages.",
 };
 

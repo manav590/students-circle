@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 
 
 export const metadata: Metadata = {
-  title: "Global Connect - Settings",
+  title: "Settings", // Update title, layout template handles " | Global Connect"
   description: "Manage your application settings.",
 };
 

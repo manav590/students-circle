@@ -15,7 +15,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Global Connect",
+  title: {
+    template: "%s | Global Connect",
+    default: "Global Connect",
+  },
   description: "A platform for students to connect with their fellow mates around the globe",
 };
 

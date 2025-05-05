@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Edit } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Global Connect - Profile",
+  title: "Profile", // Update title, layout template handles " | Global Connect"
   description: "View and manage your profile.",
 };
 

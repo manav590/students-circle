@@ -11,7 +11,7 @@ import { Label } from "@/components/ui/label";
 
 
 export const metadata: Metadata = {
-  title: "Global Connect - Study Goals",
+  title: "Study Goals", // Update title, layout template handles " | Global Connect"
   description: "Track your study goals and progress.",
 };
 

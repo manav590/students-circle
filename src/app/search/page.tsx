@@ -5,7 +5,7 @@ import UserSearch from "@/components/user-search";
 import { Sidebar, SidebarInset } from "@/components/ui/sidebar";
 
 export const metadata: Metadata = {
-  title: "Global Connect - Search Users",
+  title: "Search Users", // Update title, layout template handles " | Global Connect"
   description: "Find and connect with students globally.",
 };
 

@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Upload } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Global Connect - Study Materials",
+  title: "Study Materials", // Update title, layout template handles " | Global Connect"
   description: "Share and find study materials.",
 };
 

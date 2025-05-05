@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 import AppSidebar from "@/components/app-sidebar";
 import { Sidebar, SidebarInset } from "@/components/ui/sidebar";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { Award, Star, Zap } from "lucide-react";
+import { Award, Star, Zap, BookOpenCheck, UserPlus } from "lucide-react"; // Import directly if available
 
 export const metadata: Metadata = {
-  title: "Global Connect - Achievements",
+  title: "Achievements", // Update title, layout template handles " | Global Connect"
   description: "View your earned achievements.",
 };
 
@@ -18,23 +18,6 @@ const mockAchievements = [
     { id: 'a4', title: 'Helping Hand', description: 'Shared your first study material.', icon: BookOpenCheck, earned: true },
     { id: 'a5', title: 'Community Builder', description: 'Made 10 connections.', icon: UserPlus, earned: false },
 ];
-
-// Placeholder icons if lucide doesn't have them
-const BookOpenCheck = ({ className }: { className?: string }) => ( // Assuming BookOpenCheck exists
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
-        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
-        <path d="m16 13 2 2 4-4"></path>
-    </svg>
-);
-const UserPlus = ({ className }: { className?: string }) => ( // Assuming UserPlus exists
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
-    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
-    <circle cx="9" cy="7" r="4"></circle>
-    <line x1="19" x2="19" y1="8" y2="14"></line>
-    <line x1="22" x2="16" y1="11" y2="11"></line>
-  </svg>
-);
 
 
 export default function AchievementsPage() {
